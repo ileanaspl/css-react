@@ -1,0 +1,33 @@
+.card {
+    border: solid 1px rgba(0, 0, 0, .2);
+    width: 450px;
+    border-radius: 0.5rem;
+    background-color: white;
+  
+    img {
+      width: 150px;
+      border-radius: 0.45rem 0 0 0;
+    }
+  
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+    }
+  
+    .up {
+      display: flex;
+    }
+  
+    .down {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+  
+    h2, h3 {
+      color: gray;
+    }
+  }
+  
